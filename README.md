@@ -1,12 +1,13 @@
 # Nexora InterviewAI
 
-An AI-powered mock technical interview platform imported as a Git submodule from the original open-source project.
+An AI-powered mock technical interview platform for practicing technical interviews through voice interaction and live coding.
 
-## Project
+## Features
 
-**Upstream:** https://github.com/saniddhyaDubey/Yeetcode-NC_Hack
-
-The application provides voice-based technical interviews, a live coding editor, timed coding challenges, video-based interview monitoring, and AI-generated evaluation.
+- Voice-based technical interviews
+- Live coding editor and timed challenges
+- Video-based interview monitoring
+- AI-generated interview feedback and evaluation
 
 ## Technology
 
@@ -14,15 +15,17 @@ The application provides voice-based technical interviews, a live coding editor,
 - **Backend:** Node.js, TypeScript, Express, WebSockets
 - **AI and media:** Google Gemini, ElevenLabs, Twelve Labs
 
-## Source code
+## Get the source code
 
-The complete upstream application is included in the `Nexora-InterviewAI/` submodule. Clone this repository with submodules enabled:
+This repository currently includes the application as a Git submodule in `Nexora-InterviewAI/`.
+
+Clone with the project files:
 
 ```bash
 git clone --recurse-submodules https://github.com/spr738/Nexora-InterviewA.git
 ```
 
-If you already cloned this repository without submodules:
+If you already cloned without submodules:
 
 ```bash
 git submodule update --init --recursive
@@ -30,12 +33,8 @@ git submodule update --init --recursive
 
 ## Run locally
 
-See the upstream project's README for current installation steps, environment variables, and run commands:
+Use the setup instructions and environment-variable requirements included with the application. You will need Node.js 18+ and the required API credentials for the enabled AI and media services.
 
-[Nexora InterviewAI setup guide](https://github.com/saniddhyaDubey/Yeetcode-NC_Hack#readme)
+## License and credits
 
-You will need Node.js 18+ and API keys for Google Gemini, ElevenLabs, and Twelve Labs.
-
-## Attribution and license
-
-The application source is maintained in the upstream repository by its original authors. The upstream repository states that it is licensed under the MIT License. Review its license and attribution requirements before redistributing modified copies.
+The application is based on an existing open-source project distributed under the MIT License. Original copyright and license notices must be retained when redistributing the source code.
